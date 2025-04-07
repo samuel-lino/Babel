@@ -2,7 +2,7 @@ const notasDosAlunos = [{nome: 'Lucas', nota: 7},{nome: 'Maria', nota: 5},{nome:
 
 function mostrarAlunoAprovado(listaDeAlunos){
     return listaDeAlunos.filter((e)=>{
-        return e.nota > 6
+        return e.nota >= 6
     })
 }
 
